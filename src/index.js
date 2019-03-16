@@ -21,3 +21,4 @@ const App = () => {
 
 // Take the React component and show it on the screen
 ReactDOM.render(<App />, document.querySelector('#root'));
+// Section 1 and 2 are now complete.
