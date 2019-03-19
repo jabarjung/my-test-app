@@ -17,13 +17,13 @@ const App = () => {
       <CommentDetail
         author="Alex"
         timeAgo="Today at 2:00 AM"
-        content="It's good."
+        content="It's a good piece of writing."
         avatar={faker.image.avatar()}
       />
       <CommentDetail
         author="Jane"
         timeAgo="Yesterday at 5:00 PM"
-        content="It's brilliant."
+        content="It's a brilliant idea."
         avatar={faker.image.avatar()}
       />
     </div>
