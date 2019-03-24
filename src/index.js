@@ -5,6 +5,10 @@ import SeasonDisplay from './SeasonDisplay';
 
 // Create a class-based React component
 class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { latitude: null };
+  }
   // For every component (or class component) we create, we have to define a render() method.
   render() {
     window.navigator.geolocation.getCurrentPosition(
