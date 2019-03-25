@@ -7,15 +7,19 @@ import SeasonDisplay from './SeasonDisplay';
 class App extends React.Component {
   constructor(props) {
     super(props);
+    // This is the only time we do direct assignment to 'this.state'
     this.state = { latitude: null };
-  }
-  // For every component (or class component) we create, we have to define a render() method.
-  render() {
     window.navigator.geolocation.getCurrentPosition(
-      position => console.log(position),
+      position => {
+        // 'setState()' has to be used to update 'state'
+        this.setState({ latitude: position.coords.latitude });
+      },
       err => console.log(err),
     );
-    return <div>Latitude: </div>;
+  }
+  // For every component (or class component) we create, we have to define a render() method
+  render() {
+    return <div>Latitude: {this.state.latitude}</div>;
   }
 }
 
