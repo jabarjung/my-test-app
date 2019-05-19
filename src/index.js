@@ -5,11 +5,7 @@ import SeasonDisplay from './SeasonDisplay';
 
 // Create a class-based React component
 class App extends React.Component {
-  constructor(props) {
-    super(props);
-    // This is the only time we do direct assignment to 'this.state'
-    this.state = { latitude: null, errorMessage: '' };
-  }
+  state = { latitude: null, errorMessage: '' };
 
   componentDidMount() {
     // 'setState()' has to be used to update 'state'
