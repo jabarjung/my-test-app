@@ -4,3 +4,4 @@
 - Section 3 is now complete.
 - Section 4 is now complete.
 - Section 5 is now complete.
+- Section 6 is now complete.
