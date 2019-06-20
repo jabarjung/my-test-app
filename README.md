@@ -5,4 +5,5 @@
 - Section 4 is now complete.
 - Section 5 is now complete.
 - Section 6 is now complete.
-- Section 7 is in progress.
+- Section 7 is now complete.
+- Section 8 is in progress.
