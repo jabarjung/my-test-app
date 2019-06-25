@@ -8,4 +8,5 @@
 - Section 7 is now complete.
 - Section 8 is now complete.
 - Section 9 is now complete.
-- Section 10 is in progress.
+- Section 10 is now complete.
+- Section 11 is in progress.
